@@ -1,0 +1,92 @@
+body{background-color: black
+    
+}
+
+li { 
+    display: inline-block;
+}
+
+#menu{
+    display: block;
+    padding: 8px;
+    background-color: rgba(0,0,70,0.7);
+    border: 1px solid #;
+    font-size: 25;
+    border-style:inset;
+    border-color:darkcyan;
+    margin:12px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+}
+
+li a:hover{
+    background-color:cornflowerblue;
+    padding: 9px;
+}
+
+
+
+#inicio{
+    margin: 12px;
+    color: white;
+    background-color: rgba(0,0,70,0.5);
+    border-style: inset;
+    border-color: darkcyan;
+}
+
+#inicio2{
+    margin: 12px;
+    color: white;
+    background-color: rgba(0,0,70,0.5);
+    border-style: inset;
+    border-color: darkcyan;
+}
+
+#inicio3{
+    margin: 12px;
+    color: white;
+    background-color: rgba(0,0,70,0.5);
+    border-style: inset;
+    border-color: darkcyan;
+}
+
+#rojo{
+    border-radius: 10%;
+    position: absolute; left:100px
+}
+
+#tf{
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+#nashor{
+    border-radius: 10%;
+    position:absolute; right: 100px
+}
+
+#grieta{
+    border-radius: 10%;
+    position: absolute; left:100px
+}
+
+#bosque{
+    border-radius: 10%;
+    display:block;
+    margin:auto;
+}
+
+#abismo{
+    border-radius: 10%;
+    position:absolute; right: 100px 
+}
+
+.active{
+    background-color:cadetblue;
+    padding: 9px;
+}

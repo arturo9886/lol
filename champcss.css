@@ -1,0 +1,149 @@
+body{background-color: black;
+    
+}
+
+
+li { 
+    display: inline-block;
+}
+
+#menu{
+    display: block;
+    padding: 8px 20px;
+    background-color: rgba(0,0,70,0.7);
+    border: 1px solid #;
+    font-size: 25;
+    border-style:inset;
+    border-color:darkcyan;
+    margin:12px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+}
+li a:hover{
+    background-color:cornflowerblue;
+    padding: 9px;
+}
+
+.active{
+    background-color: cadetblue;
+    padding: 9px;
+}
+
+#inicio{
+    margin: 12px;
+    color: white;
+    background-color: rgba(0,0,70,0.5);
+    border-style: inset;
+    border-color: darkcyan;
+}
+
+#champ{
+    margin: 12px;
+    color: white;
+    background-color: rgba(0,0,70,0.5);
+    border-style: inset;
+    border-color: darkcyan;
+}
+
+#kayni{
+    display: block;
+    border-radius: 20%;
+    position: absolute; left: 575px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,70,0.5);
+  overflow: hidden;
+  width: 100%;
+  height:auto;
+  transition: .5s ease;
+}
+
+#kayn:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#jinxi{
+    display: block;
+    border-radius: 20%;
+    position: absolute; right:100px
+}
+
+#jinx:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
+
+#evelynni{
+    display: block;
+    border-radius: 20%;
+    position: absolute; left:100px;
+}
+
+#evelynn:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
+
+#tryndai{
+    display: block;
+    border-radius: 20%;
+    position: absolute; bottom:-25px;
+    left: 100px;
+}
+
+#tryndamere:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
+
+#ahrii{
+    display: block;
+    border-radius: 20%;
+    position: absolute; left: 575px;
+    bottom: -25px;
+}
+
+#ahri:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
+
+#swaini{
+    display: block;
+    border-radius: 20%;
+    position: absolute; right: 100px;
+    bottom: -25px;
+}
+
+#swain:hover .overlay {
+  bottom: 25;
+  height: 15%;
+    z-index: 10;
+}
